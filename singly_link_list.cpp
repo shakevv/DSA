@@ -135,26 +135,6 @@ public:
 
 int main() {
 
-	Node* node1 = new Node;
-	node1->data = 10;
-	node1->key = 1;
-	Node* node2 = new Node;
-	node2->data = 20;
-	node2->key = 2;
-
-	Linked_List list;
-	list.append(node1);
-	list.print();
-
-	list.append(node2);
-	std::cout << std::endl;
-	list.print();
-	list.~Linked_List();
-
-
-
-
-
 
 	return 0;
 }
