@@ -2,18 +2,13 @@
 
 struct Node {
 public:
-	Node() : key(0), data(0), next(nullptr) {}
+	Node() : key(0), data(0) {}
 	Node(int key, int data) : key(key), data(data) {}
-	~Node() {
-		next = nullptr;
-		key = 0;
-		data = 0;
-	}
 
 public:
 	int key;
 	int data;
-	Node* next;
+	Node* next = nullptr;
 };
 
 struct Linked_List {
