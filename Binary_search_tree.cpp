@@ -32,10 +32,10 @@ private:
 		}
 	}
 
-	TreeNode* insert(TreeNode* node, int _data) {
-		if (!node) return new TreeNode(_data);
-		if (_data <= node->data) node->left = insert(node->left, _data);
-		else node->right = insert(node->right, _data);
+	TreeNode* insert(TreeNode* node, int data) {
+		if (!node) return new TreeNode(data);
+		if (data <= node->data) node->left = insert(node->left, data);
+		else node->right = insert(node->right, data);
 		return node;
 	}
 
@@ -108,10 +108,10 @@ private:
 			printLevel(root, i);
 	}
 
-	TreeNode* search(TreeNode* root, int _data)const {
-		if (!root || root->data == _data) return root;
-		if (_data < root->data) search(root->left, _data);
-		else search(root->right, _data);
+	TreeNode* search(TreeNode* root, int data)const {
+		if (!root || root->data == data) return root;
+		if (data < root->data) search(root->left, data);
+		else search(root->right, data);
 	}
 
 	void preorder(TreeNode* root) {
