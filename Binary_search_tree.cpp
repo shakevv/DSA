@@ -148,7 +148,8 @@ public:
 	}
 
 	void draw()const {
-		draw(root, 5);
+		int space = 5;
+		draw(root, space);
 	}
 
 	void BFS_Level_print()const {
