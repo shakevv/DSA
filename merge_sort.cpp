@@ -26,6 +26,7 @@ void merge(T* arr, int left, int mid, int right) {
 	}
 	delete[] temp;
 }
+
 template <typename T>
 void mergeSort(T* arr, int left, int right) {
 	if (left < right) {
