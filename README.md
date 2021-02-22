@@ -14,6 +14,7 @@ As a data structures we have:
 
 
 As algorithms we have:
+
   *(Fast) Sorting algorithms:
   
     - Merge sort
