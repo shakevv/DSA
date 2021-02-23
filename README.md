@@ -17,5 +17,9 @@ As algorithms we have:
 
   *(Fast) Sorting algorithms:
   
-    - Merge sort
-    - Quick sort
+    - Merge sort 
+    - Quick sort 
+    - 
+*Non-comparison sorts: 
+
+   - Counting sort (O(n + k))
