@@ -15,10 +15,10 @@ As a data structures we have:
 
 As algorithms we have:
 
-  *(Fast) Sorting algorithms:
+  *(Fast) Comparison sorting algorithms:
   
     - Merge sort 
     - Quick sort 
-  *Non-comparison sorts: 
+  *Non-comparison sorting algorithms: 
    
     - Counting sort
