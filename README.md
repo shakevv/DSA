@@ -1,19 +1,19 @@
 # DSA
-Here I wrote some basic important data structures and algorithms.
+Here I have some basic important data structures and algorithms implementations.
 
-As a data structures we have:
+Data Structures:
 
   *Linear Structures:
   
     - Singly-Linked List implementation
     
-   *Non-linear data structures:
+   *Non-linear Structures:
    
       - BST (binary search tree) with all the important methods
       - AVL Tree (self-balancing binary search tree) with all basic methods that include rotations. Everything else is the same as in the BST implementation.
 
 
-As algorithms we have:
+Algorithms:
 
   *(Fast) Comparison sorting algorithms:
   
@@ -22,3 +22,7 @@ As algorithms we have:
   *Non-comparison sorting algorithms: 
    
     - Counting sort
+
+  *Searching algorithms:
+     
+     -Binary Search
