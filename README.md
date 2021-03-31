@@ -12,7 +12,7 @@ Data Structures:
       - BST (binary search tree) with all the important methods
       - AVL Tree (self-balancing binary search tree) with all basic methods that include rotations. Everything else is the same as in the BST implementation.
 
-------------------------------------------------------------------------------------------------------------
+
 
 Algorithms:
 
@@ -20,7 +20,7 @@ Algorithms:
   
     - Merge sort 
     - Quick sort 
-    - 
+    
   *Non-comparison sorting algorithms: 
    
     - Counting sort
