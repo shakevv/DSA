@@ -2,7 +2,8 @@
 #include<vector>
 using namespace std;
 
-int binarySearch(vector<int> vec, int left, int right, int target) {
+template<typename T>
+int binarySearch(vector<T> vec, int left, int right, T target) {
 
 	while (left <= right) {
 		int mid = (left + right) / 2;
@@ -19,7 +20,7 @@ int binarySearch(vector<int> vec, int left, int right, int target) {
 
 int main() {
 	vector<int> vec(10);
-	for (int i = 0; i < 10; ++ i) {
+	for (int i = 0; i < 10; ++i) {
 		vec[i] = i;
 	}
 	int element = rand() % 10;
