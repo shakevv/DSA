@@ -7,13 +7,13 @@ private:
     size_t capacity;
 
 public:
-    Vector (): size(0), capacity(16) {                                                                          // 0 and 16 are default values for size and capacity
+    Vector (): size(0), capacity(16) {                                                                          
         data = new T[capacity];
     }
   
-    Vector (size_t capacity): size(0), capacity(capacity), data(new T[capacity]) {}                             // constructor with default capacity
+    Vector (size_t capacity): size(0), capacity(capacity), data(new T[capacity]) {}                             
 
-    Vector(const Vector<T>& other): size(other.size), capacity(other.capacity), data(new T[other.capacity]) {   // copy constructor
+    Vector(const Vector<T>& other): size(other.size), capacity(other.capacity), data(new T[other.capacity]) {   
         for (size_t i = 0; i < other.size; ++ i) {
             data[i] = other.data[i];
         }
@@ -55,11 +55,17 @@ public:
         data[size++] = element;
     }
 
-    T& at(const size_t idx) {                                            // no checks for valid indexes
+    T& at(const size_t idx) {   
+        if (idx >= size) {
+            throw std::runtime_error("out of range exception");
+        }
         return data[idx];
     }
 
-    const T& at(const size_t idx) const {                                
+    const T& at(const size_t idx) const {       
+        if (idx >= size) {
+            throw std::runtime_error("out of range exception");
+        }
         return data[idx];
     }
 
