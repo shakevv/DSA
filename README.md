@@ -1,30 +1,30 @@
 # DSA
 Here I implemented some data structures and algorithms.
 
-##Data Structures:
+## Data Structures:
 
-  ###Linear Structures:
+  ### Linear Structures:
 
     - Vector
     - Singly-Linked List
     
-   ###Non-linear Structures:
+   ### Non-linear Structures:
    
       - BST (binary search tree)
       - AVL Tree (self-balancing binary search tree)
 
 
-##Algorithms:
+## Algorithms:
 
-  ###(Fast) Comparison sorting algorithms:
+  ### (Fast) Comparison sorting algorithms:
   
     - Merge sort 
     - Quick sort 
     
-  ###Non-comparison sorting algorithms: 
+  ### Non-comparison sorting algorithms: 
    
     - Counting sort
 
-  ###Searching algorithms:
+  ### Searching algorithms:
      
      -Binary Search
